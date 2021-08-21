@@ -20,9 +20,9 @@ body{
 #section-1{
     margin-bottom: 300px;
 }
-.section-1-child{
+/* .section-1-child{
 
-}
+} */
 .section-1-child-item{
     margin-top: 200px;
     padding-left: 7%;
@@ -70,8 +70,9 @@ body{
     background-size: cover;
     height: 600px;
     width: 100%;
+    margin-bottom: 50px;
 }
-.section-2-child{}
+/* .section-2-child{} */
 .section-2-child-image{
     width: 50%;
 }
@@ -99,4 +100,72 @@ body{
     width: 444px;
     font-weight: 500;
     padding-bottom: 50px;
+}
+
+
+/* Section 3 css  */
+
+#section-3{
+    width: 100%;
+}
+.section-3-child-1{
+    width: 700px;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.section-3-child-1 h2{
+    color: #676767;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 43.88px;
+    text-align: center;
+    padding: 5px;
+}
+.section-3-child-1 p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24.55px;
+    text-align: center;
+    color: #252525;
+    padding-top: 20px;
+}
+.section-3-child-2{
+    width: 100%;
+}
+
+.food-blog{
+    width: 355px;
+    margin: 0 auto;
+    box-shadow: 1px 1px 20px rgba(128, 128, 128, 0.692);
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.food-blog h3{
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 40px;
+    padding-left: 15px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.food-blog p{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.blog-1{
+    margin-left: 150px;
+}
+.blog-3{
+    margin-right: 150px;
+}
+.food-blog img{
+    width: 335px;
+    padding: 10px 10px;
 }
