@@ -27,13 +27,12 @@ body{
 
 }
 .section-1-heading h1{
-    font-weight: 700;
     font-size: 60px;
     line-height: 78px;
     color: #575757;
+    letter-spacing: -2%;
 }
 ..section-1-child-item p{
-    font-weight: 500;
     font-size: 20px;
     line-height: 32px;
     letter-spacing: -2%;
