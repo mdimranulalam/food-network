@@ -2,3 +2,39 @@
     margin: 0;
     padding: 0;
 }
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.fix{
+    overflow: hidden;
+}
+
+.flexible-item{
+    display: flex;
+}
+.orange-color{
+    color: #fc9149;
+}
+
+/* Section-1 css */
+#section-1{
+
+}
+.section-1-child{
+
+}
+.section-1-child-item{
+
+}
+.section-1-heading h1{
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 78px;
+    color: #575757;
+}
+..section-1-child-item p{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: -2%;
+}
