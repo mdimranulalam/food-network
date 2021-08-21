@@ -17,14 +17,14 @@ body{
 }
 
 /* Section-1 css */
-/* #section-1{
-
+#section-1{
+    margin-bottom: 300px;
 }
 .section-1-child{
 
-} */
+}
 .section-1-child-item{
-    margin-top: 250px;
+    margin-top: 200px;
     padding-left: 7%;
 }
 
@@ -40,6 +40,7 @@ body{
     letter-spacing: -2%;
     margin-bottom: 75px;
     color: #a0a0a0;
+    padding-top: 15px;
 }
 
 .btn-style{
@@ -50,6 +51,7 @@ body{
     background-image: linear-gradient(#FBA24F, #FF1E1E);
     margin-top: 50px;
     color: #ffeee5;
+    box-shadow: 1px 1px 5px gray;
 }
 .section-1-child-image{
     margin-top: 50px;
@@ -59,4 +61,42 @@ body{
     width: 660px;
     height: 750px;
     padding-left: 5%;
+}
+
+/* Section 2 css */
+#section-2{
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+}
+.section-2-child{}
+.section-2-child-image{
+    width: 50%;
+}
+.section-2-child-image img {
+    width: 347px;
+    padding-top: 50px;
+    padding-left: 30%;
+}
+.section-2-child-item{
+    width: 50%;
+    margin-top: 127px;
+    padding-left: 10%;
+}
+.section-2-child-item h2{
+    color: #707070;
+    font-size: 40px;
+    line-height: 54px;
+    font-weight: 700;
+}
+.section-2-child-item p{
+    color: #151827;
+    font-size: 18px;
+    line-height: 32px;
+    padding-top: 40px;
+    width: 444px;
+    font-weight: 500;
+    padding-bottom: 50px;
 }
