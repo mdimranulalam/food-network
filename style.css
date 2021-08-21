@@ -17,23 +17,46 @@ body{
 }
 
 /* Section-1 css */
-#section-1{
+/* #section-1{
 
 }
 .section-1-child{
 
-}
+} */
 .section-1-child-item{
-
+    margin-top: 250px;
+    padding-left: 7%;
 }
+
 .section-1-heading h1{
     font-size: 60px;
     line-height: 78px;
     color: #575757;
     letter-spacing: -2%;
 }
-..section-1-child-item p{
+.section-1-child-item p{
     font-size: 20px;
     line-height: 32px;
     letter-spacing: -2%;
+    margin-bottom: 100px;
+    color: #a0a0a0;
+}
+
+.btn-style{
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 100px;
+    padding: 20px 40px;
+    background-image: linear-gradient(#FBA24F, #FF1E1E);
+    margin-top: 50px;
+    color: #ffeee5;
+}
+.section-1-child-image{
+    margin-top: 50px;
+}
+.section-1-child-image img{
+    position: absolute;
+    width: 660px;
+    height: 750px;
+    padding-left: 5%;
 }
